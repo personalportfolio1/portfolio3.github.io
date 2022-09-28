@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand img{
+    max-width:80px;
+    height:auto;
+}
+.navbarsection .navbar-toggler:focus{
+box-shadow:none;
+}
+#mypic{
+    height:auto;
+    width:200px;
+    outline:2px solid red;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+   font-weight: bolder;
+    font-size:30px;;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size: 40px;
+}
+#home h2::after{
+    content:'';
+    width:40%;
+    height:0.9px;
+    background-color:black;
+    position:absolute;
+    top:20%;
+    left:30%;
+    overflow-x: hidden;
+}
+#mybutton1{
+    margin:10px;
+    padding:10px 10px;
+    width:80px;
+    font-size: 18px;
+    transition:all 1s ease-in;
+} 
+#mybutton2{
+    margin:10px;
+    padding:10px 10px;
+    width:80px;
+    font-size: 18px;
+    transition:all 1s ease-in;
+} 
+#mybutton1:hover{
+    box-shadow: 2px 2px 2px rgb(176, 177, 176);
+    background-color: rgb(200, 215, 237);
+    color:blue;
+}
+#mybutton2:hover{
+    box-shadow: 2px 2px 2px rgb(176, 177, 176);
+    background-color: rgb(230, 226, 243);
+    color:rgb(40, 63, 192);
+}
+#downloadcvbtn{
+    margin:0 40px;
+}
+.social-icons{
+    margin:10px;
+    /* border:2px solid red; */
+}
+.social-icons i{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    border:2px solid rgb(216, 216, 221);
+    line-height: 50px;
+}
+.fa-whatsapp{
+    color:green;
+}
+.fa-instagram{
+    color:red;
+}
+a i{
+    transition:all 0.7s ease-in;
+    box-shadow: 3px 2px 2px rgb(241, 237, 237);
+}
+a i:hover{
+    transform: scale(1.2);
+}
+.project{
+   
+    height:70px;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px yellow;
+    border-radius:20px;
+    }
+    .firstproject,.secondproject,.thirdproject{
+        text-align: center;
+        padding:16px;
+        cursor:pointer;
+    }
+    .projectlinks{
+        font-size: 25px;
+    }
+
+
